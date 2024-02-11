@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #153677, #02102c);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 480px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  color: #333;
+}
+
+#input_suhu {
+  margin-left: 20px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+p {
+  display: block;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  color: #333;
+}
+
+button {
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+div input[type='text'] {
+  background-color: #f4f4f4;
+  margin-right: 10px;
+}

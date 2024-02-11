@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konversi Suhu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Konversi suhu</h1>
+    <form>
+      <label for="temperature_input" id="input_suhu">Masukkan nilai suhu: </label>
+      <input type="number" name="" class="value" id="temperature_input" value="" />
+      <div>
+        <input id="celcius" type="radio" name="temperature_type" onclick="calculateTemperature('celcius_value')" />
+        <label for="celcius">Celcius</label>
+        <input type="text" id="celcius_value" readonly />
+        <p>°C</p>
+      </div>
+      <div>
+        <input id="farenheit" type="radio" name="temperature_type" onclick="calculateTemperature('farenheit_value')" />
+        <label for="farenheit">Farenheit</label>
+        <input type="text" id="farenheit_value" readonly />
+        <p>°F</p>
+      </div>
+      <div>
+        <input id="reamur" type="radio" name="temperature_type" onclick="calculateTemperature('reamur_value')" />
+        <label for="reamur">Reamur</label>
+        <input type="text" id="reamur_value" readonly />
+        <p>°R</p>
+      </div>
+      <div>
+        <input id="kelvin" type="radio" name="temperature_type" onclick="calculateTemperature('kelvin_value')" />
+        <label for="kelvin">Kelvin</label>
+        <input type="text" id="kelvin_value" readonly />
+        <p>°K</p>
+      </div>
+
+      <button type="reset">Reset</button><br />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
